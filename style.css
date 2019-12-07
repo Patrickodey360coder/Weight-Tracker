@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    height: 70%;
+}
+
+.title{
+    font-family: 'Ultra', serif;
+    padding: .5rem;
+    background-color: orange;
+    margin: auto;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.date{
+    padding: 8px;
+    text-align: center;
+}
+
+.main{
+    padding: 1.5em;
+}
+
+.name{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bmi{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.result{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+
+.activity{
+    padding: 0px 2em;
+    margin: auto;
+}
+
+.update{
+    border: 1px solid black;
+    padding: .7em;
+    border-radius: 2em;
+    margin-bottom: 10px;
+}
+
+input{
+    border: none;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    padding-top: .8rem;
+    margin: 10px auto;
+    padding-left:15px ;
+    padding-bottom: .8rem;
+    color: grey;
+}
+input:focus {
+    border: none;
+    outline: none;
+  }
+
+ .button{
+  text-align: center;
+  color: white;
+  background: orange;
+}
+
+.delete{
+    float: right;
+}
+
+i{
+    color:orange;
+    cursor: pointer;
+}
+i:hover{
+    color: orangered;
+}
+
+::placeholder{
+    padding-left:5px ;
+}
+
+
+footer{
+    height:auto;
+    align-content: center;
+    align-items: center;
+    padding-left:90px ;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.report {
+    padding: 8px;
+    font-weight: bold;
+    width: 30%;
+    background-color:white;
+    border: 1px solid orange;
+    color:orange;
+    margin-right: 10px;
+    border-radius: 50px;  
+}
+
+.stats{
+    padding: 8px;
+    font-weight: bold;
+    width: 30%;
+    background-color:white;
+    border: 1px solid orange;
+    color:orange;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.settings{
+    padding: 8px;
+    font-weight: bold;
+    width: 30%;
+    background-color:white;
+    border: 1px solid orange;
+    color:orange;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.report:hover{
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+}
+.stats:hover{
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+}
+.settings:hover{
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+.btn-odey{
+    background: orange;
+    color: white;
+    border: none;
+}
+.btn-odey:hover{
+    background: rgb(240, 159, 9);
+    
+}
+
+.white{
+    color:white;
+}
+
+.hover{
+    background: orange;
+    color: white;
+}
